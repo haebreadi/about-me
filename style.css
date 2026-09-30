@@ -1,0 +1,33 @@
+/* 페이지 바깥 배경 */
+html {
+  background-color: #eef2f7;
+}
+
+/* 4번: 본문을 카드처럼 (padding + 배경색) */
+body {
+  background-color: white;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 12px;
+}
+
+/* 3번: 제목 색상과 글꼴 크기 */
+h1 {
+  color: #2b6cb0;
+  font-size: 40px;
+}
+
+/* 5번: 좋아하는 것 목록을 Flexbox로 가로 정렬 */
+ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e2e8f0;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
